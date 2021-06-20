@@ -1,0 +1,62 @@
+#include<iostream>
+
+#include<string>
+
+using namespace std;
+
+int main()
+
+{ int n;
+
+  cout<<"1. To find the ASCII Value of a character \n";
+
+  cout<<"2. To find the character from the given number \n";
+
+  cout<<"Enter your choice";
+
+  cin>>n;
+
+  switch (n)
+
+  {
+
+    case 1:
+
+     { char ch;
+
+       cout << "Enter the character \n";
+
+       cin>>ch;
+
+       cout<<"the ASCII value  is "<<int(ch);
+
+      }
+
+   break;
+
+    case 2:
+
+    {  int x;
+
+      cout << "Enter the value \n";
+
+     cin>>x;
+
+     char b= x ;
+
+     cout<<"The character is "<<b;
+
+    }
+
+   break; 
+
+   default :
+
+  cout<<"Worng value is entered";
+
+   break;
+
+  }
+
+}
+
